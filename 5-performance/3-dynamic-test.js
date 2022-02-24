@@ -17,5 +17,5 @@ const port = 3000;
 const server = http.createServer(app);
 
 server.listen(port, () => {
-  console.log('NodeJS Performance Optimizations listening on: ', port);
+  console.log(`Prueba 2 optimizada, ejecutandose con ${process.env.UV_THREADPOOL_SIZE} nucleos, escuchando en puerto: ${port}`);
 });
